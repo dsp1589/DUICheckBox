@@ -11,5 +11,6 @@ Two styles implemented
 1. Square
 2. Round
 
-![alt text](https://raw.githubusercontent.com/dsp1589/DUICheckBox/tree/master/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.13%20PM.png)
+
+![alt text](https://raw.githubusercontent.com/dsp1589/DUICheckBox/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.13%20PM.png)
 ![alt text](https://raw.githubusercontent.com/dsp1589/DUICheckBox/tree/master/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.38%20PM.png)
