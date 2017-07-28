@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DE6F261F2BC097005E5367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6F251F2BC097005E5367 /* AppDelegate.swift */; };
+		65DE6F281F2BC097005E5367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6F271F2BC097005E5367 /* ViewController.swift */; };
+		65DE6F2B1F2BC097005E5367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DE6F291F2BC097005E5367 /* Main.storyboard */; };
+		65DE6F2D1F2BC097005E5367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DE6F2C1F2BC097005E5367 /* Assets.xcassets */; };
+		65DE6F301F2BC097005E5367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DE6F2E1F2BC097005E5367 /* LaunchScreen.storyboard */; };
+		65DE6F3B1F2BC097005E5367 /* DUICheckBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6F3A1F2BC097005E5367 /* DUICheckBoxTests.swift */; };
+		65DE6F461F2BC097005E5367 /* DUICheckBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6F451F2BC097005E5367 /* DUICheckBoxUITests.swift */; };
+		65DE6F541F2BC0A8005E5367 /* DUICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6F531F2BC0A8005E5367 /* DUICheckBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65DE6F371F2BC097005E5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DE6F1A1F2BC097005E5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DE6F211F2BC097005E5367;
+			remoteInfo = DUICheckBox;
+		};
+		65DE6F421F2BC097005E5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DE6F1A1F2BC097005E5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DE6F211F2BC097005E5367;
+			remoteInfo = DUICheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65DE6F221F2BC097005E5367 /* DUICheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUICheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE6F251F2BC097005E5367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65DE6F271F2BC097005E5367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DE6F2A1F2BC097005E5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DE6F2C1F2BC097005E5367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DE6F2F1F2BC097005E5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DE6F311F2BC097005E5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DE6F361F2BC097005E5367 /* DUICheckBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUICheckBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE6F3A1F2BC097005E5367 /* DUICheckBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUICheckBoxTests.swift; sourceTree = "<group>"; };
+		65DE6F3C1F2BC097005E5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DE6F411F2BC097005E5367 /* DUICheckBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUICheckBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE6F451F2BC097005E5367 /* DUICheckBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUICheckBoxUITests.swift; sourceTree = "<group>"; };
+		65DE6F471F2BC097005E5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DE6F531F2BC0A8005E5367 /* DUICheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUICheckBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DE6F1F1F2BC097005E5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F331F2BC097005E5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F3E1F2BC097005E5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DE6F191F2BC097005E5367 = {
+			isa = PBXGroup;
+			children = (
+				65DE6F241F2BC097005E5367 /* DUICheckBox */,
+				65DE6F391F2BC097005E5367 /* DUICheckBoxTests */,
+				65DE6F441F2BC097005E5367 /* DUICheckBoxUITests */,
+				65DE6F231F2BC097005E5367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DE6F231F2BC097005E5367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DE6F221F2BC097005E5367 /* DUICheckBox.app */,
+				65DE6F361F2BC097005E5367 /* DUICheckBoxTests.xctest */,
+				65DE6F411F2BC097005E5367 /* DUICheckBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DE6F241F2BC097005E5367 /* DUICheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				65DE6F251F2BC097005E5367 /* AppDelegate.swift */,
+				65DE6F271F2BC097005E5367 /* ViewController.swift */,
+				65DE6F291F2BC097005E5367 /* Main.storyboard */,
+				65DE6F2C1F2BC097005E5367 /* Assets.xcassets */,
+				65DE6F2E1F2BC097005E5367 /* LaunchScreen.storyboard */,
+				65DE6F311F2BC097005E5367 /* Info.plist */,
+				65DE6F531F2BC0A8005E5367 /* DUICheckBox.swift */,
+			);
+			path = DUICheckBox;
+			sourceTree = "<group>";
+		};
+		65DE6F391F2BC097005E5367 /* DUICheckBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				65DE6F3A1F2BC097005E5367 /* DUICheckBoxTests.swift */,
+				65DE6F3C1F2BC097005E5367 /* Info.plist */,
+			);
+			path = DUICheckBoxTests;
+			sourceTree = "<group>";
+		};
+		65DE6F441F2BC097005E5367 /* DUICheckBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65DE6F451F2BC097005E5367 /* DUICheckBoxUITests.swift */,
+				65DE6F471F2BC097005E5367 /* Info.plist */,
+			);
+			path = DUICheckBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DE6F211F2BC097005E5367 /* DUICheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE6F4A1F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBox" */;
+			buildPhases = (
+				65DE6F1E1F2BC097005E5367 /* Sources */,
+				65DE6F1F1F2BC097005E5367 /* Frameworks */,
+				65DE6F201F2BC097005E5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUICheckBox;
+			productName = DUICheckBox;
+			productReference = 65DE6F221F2BC097005E5367 /* DUICheckBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65DE6F351F2BC097005E5367 /* DUICheckBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE6F4D1F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBoxTests" */;
+			buildPhases = (
+				65DE6F321F2BC097005E5367 /* Sources */,
+				65DE6F331F2BC097005E5367 /* Frameworks */,
+				65DE6F341F2BC097005E5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DE6F381F2BC097005E5367 /* PBXTargetDependency */,
+			);
+			name = DUICheckBoxTests;
+			productName = DUICheckBoxTests;
+			productReference = 65DE6F361F2BC097005E5367 /* DUICheckBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65DE6F401F2BC097005E5367 /* DUICheckBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE6F501F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBoxUITests" */;
+			buildPhases = (
+				65DE6F3D1F2BC097005E5367 /* Sources */,
+				65DE6F3E1F2BC097005E5367 /* Frameworks */,
+				65DE6F3F1F2BC097005E5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DE6F431F2BC097005E5367 /* PBXTargetDependency */,
+			);
+			name = DUICheckBoxUITests;
+			productName = DUICheckBoxUITests;
+			productReference = 65DE6F411F2BC097005E5367 /* DUICheckBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DE6F1A1F2BC097005E5367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dhana S";
+				TargetAttributes = {
+					65DE6F211F2BC097005E5367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					65DE6F351F2BC097005E5367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65DE6F211F2BC097005E5367;
+					};
+					65DE6F401F2BC097005E5367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65DE6F211F2BC097005E5367;
+					};
+				};
+			};
+			buildConfigurationList = 65DE6F1D1F2BC097005E5367 /* Build configuration list for PBXProject "DUICheckBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DE6F191F2BC097005E5367;
+			productRefGroup = 65DE6F231F2BC097005E5367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DE6F211F2BC097005E5367 /* DUICheckBox */,
+				65DE6F351F2BC097005E5367 /* DUICheckBoxTests */,
+				65DE6F401F2BC097005E5367 /* DUICheckBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DE6F201F2BC097005E5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6F301F2BC097005E5367 /* LaunchScreen.storyboard in Resources */,
+				65DE6F2D1F2BC097005E5367 /* Assets.xcassets in Resources */,
+				65DE6F2B1F2BC097005E5367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F341F2BC097005E5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F3F1F2BC097005E5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DE6F1E1F2BC097005E5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6F281F2BC097005E5367 /* ViewController.swift in Sources */,
+				65DE6F261F2BC097005E5367 /* AppDelegate.swift in Sources */,
+				65DE6F541F2BC0A8005E5367 /* DUICheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F321F2BC097005E5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6F3B1F2BC097005E5367 /* DUICheckBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE6F3D1F2BC097005E5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6F461F2BC097005E5367 /* DUICheckBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65DE6F381F2BC097005E5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DE6F211F2BC097005E5367 /* DUICheckBox */;
+			targetProxy = 65DE6F371F2BC097005E5367 /* PBXContainerItemProxy */;
+		};
+		65DE6F431F2BC097005E5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DE6F211F2BC097005E5367 /* DUICheckBox */;
+			targetProxy = 65DE6F421F2BC097005E5367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65DE6F291F2BC097005E5367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE6F2A1F2BC097005E5367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DE6F2E1F2BC097005E5367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE6F2F1F2BC097005E5367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DE6F481F2BC097005E5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65DE6F491F2BC097005E5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DE6F4B1F2BC097005E5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DUICheckBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65DE6F4C1F2BC097005E5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DUICheckBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65DE6F4E1F2BC097005E5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DUICheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUICheckBox.app/DUICheckBox";
+			};
+			name = Debug;
+		};
+		65DE6F4F1F2BC097005E5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DUICheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUICheckBox.app/DUICheckBox";
+			};
+			name = Release;
+		};
+		65DE6F511F2BC097005E5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DUICheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DUICheckBox;
+			};
+			name = Debug;
+		};
+		65DE6F521F2BC097005E5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DUICheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systameta.DUICheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DUICheckBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DE6F1D1F2BC097005E5367 /* Build configuration list for PBXProject "DUICheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE6F481F2BC097005E5367 /* Debug */,
+				65DE6F491F2BC097005E5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DE6F4A1F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE6F4B1F2BC097005E5367 /* Debug */,
+				65DE6F4C1F2BC097005E5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DE6F4D1F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE6F4E1F2BC097005E5367 /* Debug */,
+				65DE6F4F1F2BC097005E5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DE6F501F2BC097005E5367 /* Build configuration list for PBXNativeTarget "DUICheckBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE6F511F2BC097005E5367 /* Debug */,
+				65DE6F521F2BC097005E5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DE6F1A1F2BC097005E5367 /* Project object */;
+}
