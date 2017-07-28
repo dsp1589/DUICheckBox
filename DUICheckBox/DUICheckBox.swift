@@ -54,6 +54,7 @@ class DUICheckBox: UIControl {
         didSet{
             if isSelected{
                 checked()
+                animateCheck()
             }else{
                 unChecked()
             }
@@ -102,4 +103,12 @@ class DUICheckBox: UIControl {
         tickerLayer.strokeColor = checkColor.cgColor
         checkedDelegate?.checked(checked: isSelected)
     }
+    
+    func animateCheck(){
+        let animation = CABasicAnimation(keyPath: "strokeEnd")
+        animation.fromValue = 0.0
+        animation.toValue = 1.0
+        tickerLayer.add(animation, forKey: "checked")
+    }
+    
 }
