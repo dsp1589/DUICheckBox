@@ -21,10 +21,11 @@ enum CheckBoxStyle : Int{
 
 @IBDesignable
 class DUICheckBox: UIControl {
-    var type : CheckBoxStyle = .round
+    var type : CheckBoxStyle = .square
     var tickerLayer : CAShapeLayer!
     var path : CGPath!
     var checkedDelegate : CheckBoxDelegate!
+    @IBInspectable var checkColor : UIColor! = UIColor.white
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -61,11 +62,6 @@ class DUICheckBox: UIControl {
     
     func setUp(){
         let bPath = UIBezierPath()
-        print(self.frame)
-        print(self.layer.frame)
-//        bPath.move(to: CGPoint(x: 4.0, y: 10.0))
-//        bPath.addLine(to: CGPoint(x: 8.0, y: 15.0))
-//        bPath.addLine(to: CGPoint(x: 16.0, y: 5.0))
         bPath.move(to: CGPoint(x: self.layer.frame.size.width / 5.0, y: self.layer.frame.size.height/2.0))
         bPath.addLine(to: CGPoint(x: self.layer.frame.size.width * 2.0 / 5.0, y: (self.layer.frame.size.height * (3/4))))
         bPath.addLine(to: CGPoint(x: self.layer.frame.size.width * 4.0 / 5.0, y: (self.layer.frame.size.height * (1/4))))
@@ -74,7 +70,7 @@ class DUICheckBox: UIControl {
         tickerLayer.lineWidth = self.layer.frame.size.width < self.layer.frame.size.height ? self.layer.frame.size.width/10.0 : self.layer.frame.size.height/10.0
         tickerLayer.lineCap = "round"
         tickerLayer.lineJoin = "round"
-        tickerLayer.strokeColor = UIColor.white.cgColor
+        tickerLayer.strokeColor = checkColor.cgColor
         if type == .square{
             self.layer.cornerRadius = self.layer.frame.size.width < self.layer.frame.size.height ? self.layer.frame.size.width/10.0 : self.layer.frame.size.height/10.0
         }else{
@@ -82,19 +78,13 @@ class DUICheckBox: UIControl {
         }
         self.layer.borderWidth = 1.0
         if let _ = self.backgroundColor{
-            
             var r: CGFloat = 0.0, g: CGFloat = 0.0, b: CGFloat = 0.0, a: CGFloat = 0.0
             UIColor.red.getRed(&r, green: &g, blue: &b, alpha: &a)
-            
-        self.layer.borderColor = UIColor(red: (1 - r), green: (1 - g), blue: (1 - b), alpha: a).withAlphaComponent(0.8).cgColor
-            
+            self.layer.borderColor = UIColor(red: (1 - r), green: (1 - g), blue: (1 - b), alpha: a).withAlphaComponent(0.8).cgColor
         }
-        
         isSelected = false
         self.layer.addSublayer(tickerLayer)
     }
-    
-    
     
     
     func isChecked() -> Bool{
@@ -109,7 +99,7 @@ class DUICheckBox: UIControl {
     
     func checked(){
         tickerLayer.fillColor = UIColor.clear.cgColor
-        tickerLayer.strokeColor = UIColor.white.cgColor
+        tickerLayer.strokeColor = checkColor.cgColor
         checkedDelegate?.checked(checked: isSelected)
     }
 }

@@ -28,6 +28,11 @@
                                     <constraint firstAttribute="height" constant="144" id="0xP-oJ-HTo"/>
                                     <constraint firstAttribute="width" constant="144" id="dhb-d6-97u"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="checkColor">
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHECKED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iV8-zk-k4M">
                                 <rect key="frame" x="114" y="608.5" width="146" height="38.5"/>
