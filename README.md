@@ -12,5 +12,4 @@ Two styles implemented
 2. Round
 
 ![Alt text](/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.13%20PM.png?raw=true "Image")
-
-![alt text](https://raw.githubusercontent.com/dsp1589/DUICheckBox/tree/master/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.38%20PM.png)
+![Alt text](/screen%20shot/Screen%20Shot%202017-07-28%20at%204.49.38%20PM.png?raw=true "Image")
